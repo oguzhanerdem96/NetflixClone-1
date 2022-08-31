@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BFI-eU-Kb4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ara-->
+        <scene sceneID="cIH-0b-pmu">
+            <objects>
+                <viewController id="RbG-XL-sPw" customClass="AraViewController" customModule="NetflixClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iSv-9n-3ZR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="v7G-RS-wgZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ara" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="cbU-8K-VbQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="osb-rt-4jy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1312" y="70"/>
+        </scene>
+        <!--Çok Yakında-->
+        <scene sceneID="vYA-nu-y0Q">
+            <objects>
+                <viewController id="T0W-Dq-2jk" customClass="CokYak_ndaViewController" customModule="NetflixClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IHW-gF-dAF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XRu-dA-juB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Çok Yakında" image="play.rectangle.on.rectangle" catalog="system" selectedImage="play.rectangle.on.rectangle.fill" id="Tjj-XL-r58"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rO-mC-9dA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2121" y="84"/>
+        </scene>
+        <!--İndirilenler-->
+        <scene sceneID="y0c-38-vC9">
+            <objects>
+                <viewController id="Zlf-hs-uV4" customClass="IndirilenlerViewController" customModule="NetflixClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IBA-uc-o3b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xyL-O2-8Lt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="İndirilenler" image="square.and.arrow.down" catalog="system" selectedImage="square.and.arrow.down.fill" id="oZP-DX-GW1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TUL-4v-OHh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3024" y="80"/>
+        </scene>
+        <!--Daha Fazla-->
+        <scene sceneID="5WY-7X-aQj">
+            <objects>
+                <viewController id="MqT-hY-4zs" customClass="DahaFazlaViewController" customModule="NetflixClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KAO-7W-gj9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eZX-qn-96X"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Daha Fazla" image="line.3.horizontal" catalog="system" selectedImage="line.3.horizontal.decrease" id="Hg9-kh-hWK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BgQ-7c-Gbc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3951" y="84"/>
+        </scene>
+        <!--Anasayfa-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AnasayfaViewController" customModule="NetflixClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Yjr-ac-jVo">
+                                <rect key="frame" x="0.0" y="94" width="414" height="1019"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="4LG-l9-lu8">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4LG-l9-lu8" id="G6s-8m-3zZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fV-2E-0bW">
+                                <rect key="frame" x="294" y="44" width="100" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0yL-ZU-9ct"/>
+                                    <constraint firstAttribute="height" constant="42" id="7PN-wx-qAA"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Listem"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ot5-s4-oDq">
+                                <rect key="frame" x="94" y="44" width="100" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="6Je-sp-ReJ"/>
+                                    <constraint firstAttribute="height" constant="42" id="8yc-5H-OZF"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Diziler"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="netflixlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Vya-46-F7P">
+                                <rect key="frame" x="20" y="29" width="58" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="BnC-2i-3PZ"/>
+                                    <constraint firstAttribute="height" constant="57" id="hHf-yB-Iwb"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="57" id="m2O-ZK-A0S"/>
+                                    <constraint firstAttribute="width" constant="58" id="ydR-vf-8OL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNN-pb-29a">
+                                <rect key="frame" x="194" y="44" width="100" height="42"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EiB-G9-Bsb"/>
+                                    <constraint firstAttribute="height" constant="42" id="SWG-Fb-jcR"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Filmler"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7fV-2E-0bW" secondAttribute="trailing" constant="20" id="0gr-Dt-ORe"/>
+                            <constraint firstItem="Vya-46-F7P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="29" id="99d-2I-uL9"/>
+                            <constraint firstItem="Ot5-s4-oDq" firstAttribute="leading" secondItem="Vya-46-F7P" secondAttribute="trailing" constant="16" id="D0h-dI-dfI"/>
+                            <constraint firstItem="7fV-2E-0bW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GUr-o6-AV9"/>
+                            <constraint firstItem="Yjr-ac-jVo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="SFD-WK-cO6"/>
+                            <constraint firstItem="Yjr-ac-jVo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="USC-nk-6td"/>
+                            <constraint firstItem="Vya-46-F7P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="29" id="Y7T-ZW-9oA"/>
+                            <constraint firstItem="mNN-pb-29a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="foe-Ay-v9d"/>
+                            <constraint firstAttribute="bottom" secondItem="Yjr-ac-jVo" secondAttribute="bottom" constant="-217" id="lrj-zd-eEr"/>
+                            <constraint firstItem="Vya-46-F7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nuH-if-VSH"/>
+                            <constraint firstItem="Ot5-s4-oDq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rdP-fP-iPi"/>
+                            <constraint firstItem="mNN-pb-29a" firstAttribute="leading" secondItem="Ot5-s4-oDq" secondAttribute="trailing" id="sBQ-ce-irB"/>
+                            <constraint firstItem="Yjr-ac-jVo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uYl-Mj-Ocd"/>
+                            <constraint firstItem="7fV-2E-0bW" firstAttribute="leading" secondItem="mNN-pb-29a" secondAttribute="trailing" id="xMq-Ni-RFC"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Anasayfa" image="house.fill" catalog="system" selectedImage="house" id="sdq-j5-wkr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431.8840579710145" y="69.642857142857139"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SFh-mr-wkX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="BFI-eU-Kb4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" id="vWf-iQ-zaE">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="g1N-Oe-Pz6"/>
+                        <segue destination="RbG-XL-sPw" kind="relationship" relationship="viewControllers" id="ffz-rh-mES"/>
+                        <segue destination="T0W-Dq-2jk" kind="relationship" relationship="viewControllers" id="LbJ-Xf-ifa"/>
+                        <segue destination="Zlf-hs-uV4" kind="relationship" relationship="viewControllers" id="LqI-Er-fER"/>
+                        <segue destination="MqT-hY-4zs" kind="relationship" relationship="viewControllers" id="x0u-ps-NCG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZWn-Ma-ZTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-404" y="70"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
+        <image name="line.3.horizontal.decrease" catalog="system" width="128" height="73"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="netflixlogo" width="300" height="300"/>
+        <image name="play.rectangle.on.rectangle" catalog="system" width="128" height="97"/>
+        <image name="play.rectangle.on.rectangle.fill" catalog="system" width="128" height="97"/>
+        <image name="square.and.arrow.down" catalog="system" width="121" height="128"/>
+        <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
