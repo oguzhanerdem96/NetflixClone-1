@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+struct Netflix {
+    
+    var sectionType: String?
+    var imageGallery:[String?]
+    
+    init(sectionType: String, imageGallery: [String]) {
+        self.sectionType = sectionType
+        self.imageGallery = imageGallery
+    }
+}
+
